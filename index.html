@@ -14,7 +14,7 @@
     --font-ninja: "Bangers", system-ui;
     --font-body: "Montserrat", sans-serif;
     --color-donutello-purple: #4B0082;
-    --color-ninja-green: #39FF14;
+    --color-ninja-green: #59FF0F;
   }
 </style>
 
@@ -35,14 +35,30 @@
       </section>
     </div>
 
-    <div class="bg-[#561269] min-h-screen">
-      <h1 class="font-ninja text-6xl text-ninja-green">
-        Saving the World, One Donut at a Time
-      </h1>
+<div class="bg-[#561269] min-h-screen flex items-center justify-center overflow-hidden">
+    
+    <video 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        class="absolute z-0 w-full h-full object-cover opacity-5">
+        <source src="videos/running_nobg.mp4" type="video/mp4">
+    </video>
 
-    <p class="text-lg">
+    <h1 class="relative z-10 font-ninja text-7xl md:text-9xl text-center leading-tight
+               text-[#39FF14] 
+               drop-shadow-[0_8px_0_#28a711] 
+               animate-pulse">
+        Saving the World<br> 
+        <span class="text-white">One Donut at a Time</span>
+    </h1>
+
+      <p class="text-lg">
         Mastering the Art of the Mess
     </p>
+</div>
+
 
 </body>
     </div>
